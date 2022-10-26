@@ -1,17 +1,11 @@
-# My first python code #
-# 
-# print() = comando de saida
-# Mais 1 Hello world kkkk
+# comando input() : quero permitir que
+#o usuário digite algo...
+nome = input("digite seu nome: ")
+idade = int( input("Digite sua idade: "))
 
-print("Alou mundu \n")
+# comando de saída..exebir na tela
+print(nome)
+print(idade)
 
-# Guardar String #
-name = "Pablo Cavallari"
-number = 21
-
-print("Nome:", name, "\nNúmero:", number)
-
-'''
-Comentario em Bloco
-
-'''
+dobro = idade * 2
+print("O dobro da idade informada é {}".format(dobro))
